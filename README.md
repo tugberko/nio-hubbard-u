@@ -4,7 +4,12 @@ Use [calculate_hubbard_u.sh](calculate_hubbard_u.sh) to obtain linear response d
 
 <h2>Theory</h2>
 
+More information coming soon.
+
 ![Theory](https://www.bruot.org/tex2img/media/q10UJcxcUNdkeoBP8dvKPBc1ionQ6kDGJhojoYm5TILS/tex2img_equation.svg)
+
+[Cococcioni et al paper](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.71.035105) 
+[Kulik et al paper](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.97.103001) 
 
 <h2>Results</h2>
 
