@@ -22,4 +22,4 @@ At PBE Level, U = 5.19476817552149 eV.
 
 <h3>LDA</h3>
 
-Still working.
+Still running as November 16, 2020 00:09.
