@@ -6,3 +6,5 @@ Use [calculate_hubbard_u.sh](calculate_hubbard_u.sh) to obtain linear response d
 
 At PBE Level, U = 5.19476817552149 eV.
 
+![Linear response at PBE Level](output/pbe-plot.png)
+
