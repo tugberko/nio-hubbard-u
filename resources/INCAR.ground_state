@@ -1,0 +1,22 @@
+SYSTEM       = NiO AFM
+
+PREC         = A
+
+EDIFF        = 1E-8
+
+ISMEAR       = 0
+SIGMA        = 0.05
+
+ISPIN        = 2
+MAGMOM       = 1.0 -1.0  1.0 -1.0  1.0 \
+              -1.0  1.0 -1.0  1.0 -1.0 \
+               1.0 -1.0  1.0 -1.0  1.0 \
+              -1.0  1.0 -1.0  1.0 -1.0 \
+            16*0.0
+
+LORBIT       = 11
+
+LMAXMIX      = 4
+
+
+ENCUT = 600

@@ -1,0 +1,26 @@
+# PBE SCF Linear Regression
+f(x) = a*x + b
+fit f(x) 'results-pbe/scf' via a,b
+set style line 1 lw 2 lc rgb '#661100' ps 2 pt 9 pi 5
+
+
+
+# PBE Non-scf Linear Regression
+g(x) = m*x + n
+fit g(x) 'results-pbe/non-scf' via m,n
+set style line 2 lw 2 lc rgb '#F58E02' ps 2 pt 8 pi 3
+
+hubbard_U = 1/a - 1/m
+print(hubbard_U)
+
+plot "results-pbe/scf" using 1:2 title "SCF response" with points ls 1, f(x) ls 1 title sprintf("SCF fit: y=%fx+%f", a, b) with lines, "results-pbe/non-scf" using 1:2 title "Non-SCF response" with points ls 2, g(x) ls 2 title sprintf("non-SCF fit: g=%fx+%f", m, n) with lines
+
+
+set title 'Number of d-Electrons vs. External Potential (PBE)'
+set xrange [-0.6:0.6]
+set ylabel 'Number of d-electrons'
+set xlabel 'V (eV)'
+set key left top
+set grid
+
+hubbard_U = 1/a - 1/m
