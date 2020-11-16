@@ -1,6 +1,6 @@
 # nio-hubbard-u
 
-Use [calculate_hubbard_u.sh](calculate_hubbard_u.sh) to obtain linear response data. Use [fit_plot_pbe.gnup](fit_plot_pbe.gnup) and  [fit_plot_lda.gnup](fit_plot_lda.gnup) to plot responses & calculate U.
+Use [calculate_hubbard_u.sh](calculate_hubbard_u.sh) to obtain linear response data. Use [fit_plot_pbe.gnup](fit_plot_pbe.gnup) and  [fit_plot_lda.gnup](fit_plot_lda.gnup) to plot responses & calculate U for PBE and LDE cases respectively.
 
 <h2>Theory</h2>
 
