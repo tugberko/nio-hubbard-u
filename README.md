@@ -22,4 +22,6 @@ At PBE Level, U = 5.19476817552149 eV.
 
 <h3>LDA</h3>
 
-Still running as November 16, 2020 00:09.
+![Linear response at LDA Level](output/lda-plot.png)
+
+At LDA Level, U = 5.60032562910358 eV.
