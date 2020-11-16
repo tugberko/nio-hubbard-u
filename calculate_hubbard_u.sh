@@ -141,23 +141,21 @@ do
 done
 
 
-
-
-echo "$(tput setaf 5)                                      $(tput sgr 0)";
-echo "$(tput setaf 5)        _/        _/_/_/      _/_/    $(tput sgr 0)";
-echo "$(tput setaf 5)       _/        _/    _/  _/    _/   $(tput sgr 0)";
-echo "$(tput setaf 5)      _/        _/    _/  _/_/_/_/    $(tput sgr 0)";
-echo "$(tput setaf 5)     _/        _/    _/  _/    _/     $(tput sgr 0)";
-echo "$(tput setaf 5)    _/_/_/_/  _/_/_/    _/    _/      $(tput sgr 0)";
-echo "$(tput setaf 5)                                      $(tput sgr 0)";
-echo "$(tput setaf 5)                                      $(tput sgr 0)";
-
+# Flush
 rm -rf $SCRATCHPATH/hubbard_u/playground
 rm -rf $SCRATCHPATH/hubbard_u/storage
 
 mkdir -p $SCRATCHPATH/hubbard_u/playground
 mkdir -p $SCRATCHPATH/hubbard_u/storage
 
+echo "$(tput setaf 5)$(tput setab 7)                                  $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7)     _/        _/_/_/      _/_/   $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7)    _/        _/    _/  _/    _/  $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7)   _/        _/    _/  _/_/_/_/   $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7)  _/        _/    _/  _/    _/    $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7) _/_/_/_/  _/_/_/    _/    _/     $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7)                                  $(tput sgr 0)";
+echo "$(tput setaf 5)$(tput setab 7)                                  $(tput sgr 0)";
 
 # LDA Groundstate calculation
 echo ""
